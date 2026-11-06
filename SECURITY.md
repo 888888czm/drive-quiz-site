@@ -10,7 +10,7 @@
 
 若发现安全漏洞，**请勿公开提交 Issue**，请通过以下方式私下联系维护者：
 
-- 邮箱：your-email@example.com（请替换为你的邮箱）
+- 邮箱：hongyuanlizhi@qq.com
 
 我们会在 72 小时内回复，并在修复后公开致谢。
 
