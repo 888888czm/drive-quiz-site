@@ -63,8 +63,8 @@ python --version   # 确认 Python 3.8+
 # 3. 运行
 python drive_quiz.py
 
-##📦 打包为 exe
-bash
+# 📦 打包为 exe
+```bash
 # 安装 PyInstaller
 pip install pyinstaller
 
@@ -72,7 +72,9 @@ pip install pyinstaller
 pyinstaller --onefile --windowed --name 驾车闯关 drive_quiz.py
 生成文件位于 dist/驾车闯关.exe。
 
-📚 题库说明
+---
+
+## 📚 题库说明
 每关随机抽取 25 道选择题 + 25 道判断题（共 50 题），每题 2 分制换算后满分 100 分
 
 题库总数建议 ≥ 50 道选择题 + 50 道判断题，以保证关卡随机性
