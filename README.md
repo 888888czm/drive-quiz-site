@@ -40,8 +40,6 @@
 
 ---
 
----
-
 ## 🚀 快速开始
 
 ### 方式一：直接下载 exe（普通用户）
@@ -52,25 +50,27 @@
 
 ### 方式二：从源码运行（开发者）
 
-```bash
-# 1. 克隆仓库
+bash
+1. 克隆仓库
 git clone https://github.com/你的用户名/drive-quiz.git
 cd drive-quiz
 
-# 2. 安装依赖（仅需标准库，无需额外安装）
+2. 安装依赖（仅需标准库，无需额外安装）
 python --version   # 确认 Python 3.8+
 
-# 3. 运行
+3. 运行
 python drive_quiz.py
 
-# 📦 打包为 exe
-```bash
-# 安装 PyInstaller
+📦 打包为 exe
+bash
+安装 PyInstaller
 pip install pyinstaller
 
-# 打包（单文件 + 无控制台窗口）
+打包（单文件 + 无控制台窗口）
 pyinstaller --onefile --windowed --name 驾车闯关 drive_quiz.py
 生成文件位于 dist/驾车闯关.exe。
+
+---
 
 ---
 
@@ -83,7 +83,7 @@ pyinstaller --onefile --windowed --name 驾车闯关 drive_quiz.py
 
 欢迎通过 Issue / PR 补充题目，贡献时请注明依据出处
 
-##🗂️ 项目结构
+## 🗂️ 项目结构
 text
 drive-quiz/
 ├── drive_quiz.py          # 游戏主程序（Tkinter）
@@ -103,7 +103,7 @@ drive-quiz/
 
 
 
-##🔄 自动更新配置
+## 🔄 自动更新配置
 游戏内置轻量级版本检查，默认关闭。如需启用：
 
 在服务器托管一个 version.json：
@@ -122,7 +122,7 @@ UPDATE_URL = "https://your-server.com/version.json"
 
 检查在后台线程中进行，更新服务器不可用时静默忽略，不影响游戏运行。
 
-##🌐 网站部署
+## 🌐 网站部署
 site/ 目录为纯静态页面，可部署到：
 
 GitHub Pages：仓库 Settings → Pages → 选择分支
@@ -135,10 +135,10 @@ Vercel：导入仓库自动部署
 
 exe 文件较大时可上传至网盘（如蓝奏云），修改下载按钮链接即可。
 
-##🤝 贡献指南
+## 🤝 贡献指南
 欢迎提交 Issue 和 Pull Request！请先阅读 CONTRIBUTING.md。
 
-##贡献方向：
+## 贡献方向：
 
 📝 补充题库（须注明依据出处）
 
@@ -150,7 +150,7 @@ exe 文件较大时可上传至网盘（如蓝奏云），修改下载按钮链�
 
 🌐 网站优化
 
-##📄 许可证
+## 📄 许可证
 本项目采用双许可证：
 
 部分许可证说明
